@@ -1,8 +1,8 @@
 [![General Assembly Logo](https://camo.githubusercontent.com/1a91b05b8f4d44b5bbfb83abac2b0996d8e26c92/687474703a2f2f692e696d6775722e636f6d2f6b6538555354712e706e67)](https://generalassemb.ly/education/web-development-immersive)
 
-# Colors API
+# Countries API
 
-Today, we will use the 
+Today, we will use the [REST Countries API](https://restcountries.eu/) to fetch data, write it to our file system, and use the properties we need to seed our own database.
 
 ## Prerequisites
 
@@ -22,23 +22,7 @@ Starter code is available in the [`db` directory](./db) and the [`models` direct
 
 ## Requirements
 
-Describe behavioral requirements as you'll be using them in tests. That is,
-list requirements in language that describes how the written code will be used,
-not how it will be written, with the exception of constraints you may wish to
-place on implementation. It's a good idea to include the below paragraph
-verbatim.
-
-You should be running `grunt nag` before diagnosing any bugs, since it finds
-some of the most common sources of errors. After `grunt nag` passes, you should
-run `grunt test` to run the included tests. Tests will tell you whether of not
-you've met these requirements.
-
-## Bonus
-
-Bonuses are described after the requirements, if included. They should be worked
-on **only after** passing requirements.
-
-Sometimes, we ask questions that promote thinking critically about code.
+Follow along with the step-by-step instructions in the [Database Seeding repository](https://git.generalassemb.ly/dc-wdi-node-express/database-seeding).
 
 ## [License](LICENSE)
 
