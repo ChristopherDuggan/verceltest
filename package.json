@@ -1,0 +1,19 @@
+{
+  "name": "colors-api",
+  "version": "1.0.0",
+  "description": "Build your own API using fetch, fs and mongoose",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.generalassemb.ly:dc-wdi-node-express/colors-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^5.7.8",
+    "node-fetch": "^2.6.0"
+  }
+}
