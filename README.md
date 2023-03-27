@@ -22,7 +22,7 @@ Starter code is available in the [`db` directory](./db) and the [`models` direct
 
 ## Requirements
 
-Follow along with the step-by-step instructions in the [Database Seeding repository](https://git.generalassemb.ly/dc-wdi-node-express/database-seeding).
+Follow along with the step-by-step instructions in the [Database Seeding repository](https://git.generalassemb.ly/sei-embers/database-seeding).
 
 ## [License](LICENSE)
 
