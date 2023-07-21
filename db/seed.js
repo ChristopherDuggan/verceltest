@@ -1,6 +1,6 @@
 import mongoose from 'mongoose'
 import connection from './connection.js'
-import data from '../countries.json' assert { type: 'json' }
+import data from '../countries.json' 
 import Country from '../models/Country.js'
 
 let countryData = data.map(item => {
