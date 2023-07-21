@@ -5,9 +5,9 @@
     "main": "index.js",
     "scripts": {
         "start": "node index.js",
+        "seed": "node db/seed.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "rewrites": [{ "source": "/api/(.*)", "destination": "/api" }],
     "repository": {
         "type": "git",
         "url": "git@git.generalassemb.ly:dc-wdi-node-express/colors-api.git"

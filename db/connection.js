@@ -1,6 +1,6 @@
 import mongoose from 'mongoose'
 
-const connectionString = process.env.DB_URL
+const connectionString = process.env.DB_URL || 3000
 
 let mongooseConnectionConfig = { useNewUrlParser: true, useUnifiedTopology: true }
 

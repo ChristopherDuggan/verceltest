@@ -50,3 +50,4 @@ package-lock.json
 yarn.lock
 
 # End of https://www.gitignore.io/api/macos,linux
+.vercel
