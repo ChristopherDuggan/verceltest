@@ -1,5 +1,11 @@
-const mongoose = require("mongoose");
+import mongoose from 'mongoose'
 
-mongoose.connect("mongodb://localhost/countries_db", { useNewUrlParser: true });
+let mongooseConnectionConfig = { useNewUrlParser: true, useUnifiedTopology: true }
+mongoose.connect('mongodb://localhost:27017/countries', mongooseConnectionConfig)
 
-module.exports = mongoose;
+mongoose.connection.on('connected', ()=> console.log("Connected to database"))
+mongoose.connection.on('disconnected', ()=> console.log("Disconnected from database"))
+mongoose.connection.on('error', error=> console.error("Database error", error))
+
+
+export default mongoose.connection
