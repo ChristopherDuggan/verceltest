@@ -7,7 +7,7 @@ app.use(express.json())
 
 const PORT = process.env.PORT || 3000
 
-app.get('/api', (req, res) => {
+app.get('/', (req, res) => {
     Country.find({})
         .then(country => res.json(country))
 })
