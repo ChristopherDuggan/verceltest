@@ -12,4 +12,9 @@ app.get('/api', (req, res) => {
         .then(country => res.json(country))
 })
 
+app.get('/api/:name', (req, res) => {
+    Country.find({ name: req.params.name })
+        .then(country => res.json(country))
+})
+
 app.listen(PORT, () => console.log('listening on 3000'))
